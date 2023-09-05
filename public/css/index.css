@@ -1,5 +1,6 @@
 #wrap h1 {
   color: tomato;
+  font-size: 16px;
 }
 #wrap p {
   color: blue;
