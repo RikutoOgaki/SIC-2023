@@ -1,9 +1,7 @@
-html,
 body {
   margin: 0;
   padding: 0;
 }
-html #wrap,
 body #wrap {
   width: 100%;
   height: 100vh;
@@ -11,17 +9,15 @@ body #wrap {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 1rem;
   gap: 3rem;
   background-image: url("/public//img/img1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
-html #wrap .catchCopy,
 body #wrap .catchCopy {
   font-size: 1.5rem;
+  color: #ffffff;
 }
-html #wrap .logoBox,
 body #wrap .logoBox {
   width: 15rem;
   height: 15rem;
@@ -30,14 +26,12 @@ body #wrap .logoBox {
   justify-content: center;
   align-items: center;
 }
-html #wrap .buttonBox,
 body #wrap .buttonBox {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-html #wrap .buttonBox .btn,
 body #wrap .buttonBox .btn {
   width: 20rem;
   height: 3rem;
@@ -45,7 +39,14 @@ body #wrap .buttonBox .btn {
   border: none;
   color: #ffffff;
 }
-html #wrap .buttonBox .btn:nth-child(1),
 body #wrap .buttonBox .btn:nth-child(1) {
   background-color: #264CB5;
+}
+body #wrap .buttonBox .btn:nth-child(2) {
+  background-color: #262626;
+  opacity: 0.5;
+  border: 1px solid #ffffff;
+}
+body #wrap .buttonBox .class {
+  font-size: 0.8rem;
 }
