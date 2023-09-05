@@ -1,7 +1,51 @@
-#wrap h1 {
-  color: tomato;
-  font-size: 16px;
+html,
+body {
+  margin: 0;
+  padding: 0;
 }
-#wrap p {
-  color: blue;
+html #wrap,
+body #wrap {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 3rem;
+  background-image: url("/public//img/img1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+html #wrap .catchCopy,
+body #wrap .catchCopy {
+  font-size: 1.5rem;
+}
+html #wrap .logoBox,
+body #wrap .logoBox {
+  width: 15rem;
+  height: 15rem;
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+html #wrap .buttonBox,
+body #wrap .buttonBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+html #wrap .buttonBox .btn,
+body #wrap .buttonBox .btn {
+  width: 20rem;
+  height: 3rem;
+  border-radius: 10px;
+  border: none;
+  color: #ffffff;
+}
+html #wrap .buttonBox .btn:nth-child(1),
+body #wrap .buttonBox .btn:nth-child(1) {
+  background-color: #264CB5;
 }
