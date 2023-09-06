@@ -21,6 +21,8 @@ body #wrap .catchBox {
 body #wrap .catchBox .catchCopy {
   font-size: 1.5rem;
   color: #ffffff;
+  margin: 0;
+  padding: 0;
 }
 body #wrap .logoBox {
   width: 15rem;
