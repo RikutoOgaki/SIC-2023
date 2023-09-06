@@ -58,7 +58,8 @@ body #wrap .buttonBox .text {
 }
 body #wrap .buttonBox .text > a {
   color: #ffffff;
+  text-decoration: none;
 }
 body #wrap .buttonBox .text > a > span {
-  border-bottom: 1px solid #ffffff;
+  text-decoration: underline;
 }

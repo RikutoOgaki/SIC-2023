@@ -65,9 +65,10 @@ body {
 
                 &>a {
                     color: #ffffff;
+                    text-decoration: none;
 
                     &>span {
-                        border-bottom: 1px solid #ffffff;
+                        text-decoration: underline;
                     }
                 }
             }
