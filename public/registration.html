@@ -12,7 +12,11 @@
 <body>
     <div id="wrap">
         <div class="logoBar">
-            <h1 class="logo">logo</h1>
+            <h1 class="logo">
+                <figure>
+                    <img src="../public/img/logo.jpg" alt="logo">
+                </figure>
+            </h1>
         </div>
         <div class="telBox">
             <h2>電話番号の登録</h2>
@@ -20,9 +24,11 @@
             <input type="tel" id="telNumber" placeholder="電話番号">
         </div>
         <div class="buttonBox">
-            <button class="btn" onclick="location.href=''">次に進む</button>
+            <button id="btn" class="btn" disabled onclick="location.href=''">次に進む</button>
         </div>
     </div>
+
+    <script src="../src/js/registration.js"></script>
 </body>
 
 </html>

@@ -9,6 +9,7 @@
   background-image: url("/public/img/img1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 #wrap .catchBox {
   padding: 1rem;
@@ -21,12 +22,22 @@
   padding: 0;
 }
 #wrap .logoBox {
-  width: 15rem;
-  height: 15rem;
-  background-color: #c7c7c7;
+  width: 16rem;
+  height: 16rem;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+#wrap .logoBox .logo figure {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#wrap .logoBox .logo figure img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
 }
 #wrap .buttonBox {
   display: flex;
