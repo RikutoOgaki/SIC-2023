@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700&family=Noto+Serif:wght@600&display=swap");
+
 .bannerBox {
   width: 100%;
   height: auto;
@@ -11,7 +13,7 @@
   width: 96%;
   margin: 0 auto;
   button {
-    border-radius: 1vh;
+    border-radius: 5px;
     width: 100%;
     height: 50px;
     border: none;
@@ -19,7 +21,9 @@
     cursor: pointer;
     position: relative;
     span {
-      margin-left: 10%;
+      font-family: "Noto Sans JP", sans-serif;
+      font-weight: 700;
+      margin-left: 36px;
       text-align: left;
       display: block;
       width: 60vw;
@@ -28,15 +32,15 @@
       font-size: 16px;
     }
     &::before {
+      content: "Q";
+      font-family: "Noto Serif", serif;
+      font-weight: 600;
       color: #fff;
       font-size: 24px;
-      font-family: sans-serif;
       position: absolute;
-      content: "Q";
       left: 12px;
       top: 15%;
     }
-    
     &::after {
       right: 16px;
       top: 30%;
@@ -49,12 +53,98 @@
       content: "";
     }
   }
-  p {
-    margin: 0;
-    width: 100%;
-    height: 40vh;
+
+  .answerBox {
+    max-height: 0;
+    overflow: hidden;
     background: #ebedf5;
-    opacity: 1;
-    visibility: visible;
+    border-radius: 0 0 5px 5px;
+    margin: -5px 0 8px;
+    max-width: 100%;
+    padding: 0 8px 0;
+    transition: all 0.3s ease;
+    p {
+      margin: 0;
+      padding: 0;
+    }
+
+    &.isOpen {
+      max-height: 40vh;
+      padding: calc(8px + 5px) 8px 8px;
+    }
   }
+}
+
+.qaBlock{
+  width: 96%;
+  margin: 0 auto;
+  padding: 0;
+  
+  .qaItem {
+    margin-bottom: 8px;
+  list-style: none;
+
+
+  .qaHead {
+    border-radius: 5px;
+    width: 100%;
+    height: 50px;
+    border: none;
+    background: #6a769a;
+    cursor: pointer;
+    position: relative;
+    span {
+      font-family: "Noto Sans JP", sans-serif;
+      font-weight: 700;
+      margin-left: 36px;
+      text-align: left;
+      display: block;
+      width: 60vw;
+      word-wrap: break-word;
+      color: #fff;
+      font-size: 16px;
+    }
+    &::before {
+      content: "Q";
+      font-family: "Noto Serif", serif;
+      font-weight: 600;
+      color: #fff;
+      font-size: 24px;
+      position: absolute;
+      left: 12px;
+      top: 15%;
+    }
+    &::after {
+      right: 16px;
+      top: 30%;
+      rotate: 135deg;
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      border-top: 3px solid #f7d954;
+      border-right: 3px solid #f7d954;
+      content: "";
+    }
+  }
+
+  .qaBody {
+    max-height: 0;
+    overflow: hidden;
+    background: #ebedf5;
+    border-radius: 0 0 5px 5px;
+    margin: -5px 0 8px;
+    max-width: 100%;
+    padding: 0 8px 0;
+    transition: all 0.3s ease;
+    p {
+      margin: 0;
+      padding: 0;
+    }
+
+    &.isOpen {
+      max-height: 40vh;
+      padding: calc(8px + 5px) 8px 8px;
+    }
+  }
+}
 }
