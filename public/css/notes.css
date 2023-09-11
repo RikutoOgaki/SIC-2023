@@ -1,0 +1,16 @@
+#wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#wrap .mainVue {
+  width: 90%;
+  height: 7rem;
+  margin-top: 1.6rem;
+}
+#wrap .mainVue img {
+  width: 100%;
+  height: 100%;
+}
