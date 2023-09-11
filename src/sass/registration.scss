@@ -36,7 +36,15 @@
             font-size: 1rem;
         }
 
-        & p {}
+        & .errar {
+            font-size: .5rem;
+            opacity: 0;
+        }
+
+        & .errarOn {
+            color: tomato;
+            opacity: 1;
+        }
 
         & #telNumber {
             width: 16rem;
@@ -51,6 +59,7 @@
             }
         }
     }
+
 
     .buttonBox {
         .btn {
