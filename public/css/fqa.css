@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700&family=Noto+Serif:wght@600&display=swap");
 .bannerBox {
   width: 100%;
   height: auto;
@@ -12,7 +13,7 @@
   margin: 0 auto;
 }
 .fqaBox button {
-  border-radius: 1vh;
+  border-radius: 5px;
   width: 100%;
   height: 50px;
   border: none;
@@ -21,7 +22,9 @@
   position: relative;
 }
 .fqaBox button span {
-  margin-left: 10%;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  margin-left: 36px;
   text-align: left;
   display: block;
   width: 60vw;
@@ -30,11 +33,12 @@
   font-size: 16px;
 }
 .fqaBox button::before {
+  content: "Q";
+  font-family: "Noto Serif", serif;
+  font-weight: 600;
   color: #fff;
   font-size: 24px;
-  font-family: sans-serif;
   position: absolute;
-  content: "Q";
   left: 12px;
   top: 15%;
 }
@@ -49,11 +53,17 @@
   border-right: 3px solid #f7d954;
   content: "";
 }
-.fqaBox p {
-  margin: 0;
-  width: 100%;
-  height: 40vh;
+.fqaBox .answerBox {
+  max-height: 0;
+  overflow: hidden;
   background: #ebedf5;
-  opacity: 1;
-  visibility: visible;
+  border-radius: 0 0 5px 5px;
+  margin: -5px 0 8px;
+  max-width: 100%;
+  padding: 0 8px 0;
+  transition: all 0.3s ease;
+}
+.fqaBox .answerBox.isOpen {
+  max-height: 40vh;
+  padding: 13px 8px 8px;
 }
