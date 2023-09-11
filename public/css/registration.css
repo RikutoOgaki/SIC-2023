@@ -31,6 +31,14 @@
 #wrap .telBox h2 {
   font-size: 1rem;
 }
+#wrap .telBox .errar {
+  font-size: 0.5rem;
+  opacity: 0;
+}
+#wrap .telBox .errarOn {
+  color: tomato;
+  opacity: 1;
+}
 #wrap .telBox #telNumber {
   width: 16rem;
   border: none;

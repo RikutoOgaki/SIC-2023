@@ -1,0 +1,31 @@
+#wrap {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#wrap .logoBox .logo {
+  width: 200px;
+  height: 200px;
+}
+
+#wrap .logo img {
+  width: 200px;
+  height: 200px;
+}
+
+#wrap .logo {
+  margin: 0%;
+}
+
+#wrap .textBox {
+  margin-bottom: 150px;
+}
+
+#wrap .text {
+  margin: 0%;
+  font-size: 24px;
+}
