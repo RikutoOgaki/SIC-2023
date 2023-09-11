@@ -4,13 +4,55 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  gap: 3rem;
 }
 #wrap .mainVue {
-  width: 90%;
+  width: 95%;
   height: 7rem;
   margin-top: 1.6rem;
 }
 #wrap .mainVue img {
   width: 100%;
   height: 100%;
+}
+#wrap .contentBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+#wrap .contentBox .box {
+  width: 15rem;
+  height: 15rem;
+  border: 5px solid #F7D954;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#wrap .contentBox .box > figure {
+  width: 8rem;
+  height: 8rem;
+  margin: 0;
+  padding: 0;
+}
+#wrap .contentBox .box > p {
+  font-size: 0.8rem;
+  margin: 0 1rem;
+  text-align: center;
+}
+#wrap .btnBox {
+  width: 100%;
+  height: 5rem;
+  text-align: center;
+}
+#wrap .btnBox .btn {
+  width: 12rem;
+  height: 2.5rem;
+  background-color: #264CB5;
+  border: none;
+  color: #ffffff;
+  border-radius: 5px;
 }
