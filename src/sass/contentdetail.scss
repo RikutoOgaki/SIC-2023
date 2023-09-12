@@ -39,8 +39,9 @@
 
     .contentBox {
         display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
-        gap: 7rem;
 
         .content {
             width: 100%;
@@ -103,6 +104,7 @@
     .foot {
 
         margin: 9rem 0;
+        padding: 1rem;
         text-align: center;
 
         & p {
