@@ -8,7 +8,7 @@
   gap: 3rem;
 }
 #wrap .mainVue {
-  width: 95%;
+  width: 100%;
   height: 7rem;
   margin-top: 1.6rem;
 }
@@ -55,4 +55,15 @@
   border: none;
   color: #ffffff;
   border-radius: 5px;
+}
+#wrap .bannerBox {
+  width: 100%;
+  height: 8rem;
+  margin-top: 3rem;
+  padding-top: 3rem;
+  border-top: 5px solid #F7D954;
+}
+#wrap .bannerBox img {
+  width: 390px;
+  height: 120px;
 }
