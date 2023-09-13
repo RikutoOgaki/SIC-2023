@@ -1,0 +1,86 @@
+#wrap .useBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7rem 1rem 0;
+}
+#wrap .useBox #befo {
+  margin: 0;
+  padding: 0;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+  font-weight: bold;
+  color: #CECECE;
+  opacity: 0;
+}
+#wrap .useBox #aft {
+  margin: 0;
+  padding: 0;
+  font-size: 1.5rem;
+  margin-left: 1.5rem;
+  font-weight: bold;
+  color: #CECECE;
+}
+#wrap .useBox .content {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+}
+#wrap .useBox .content h2 {
+  font-size: 1.1rem;
+  text-align: center;
+}
+#wrap .useBox .content figure {
+  margin: 0;
+  padding: 0;
+  width: 9rem;
+  height: 9rem;
+  position: relative;
+}
+#wrap .useBox .content figure img {
+  width: 100%;
+  height: 100%;
+}
+#wrap .useBox .content p {
+  text-align: center;
+}
+#wrap .useBox .content:nth-child(3) {
+  display: none;
+}
+#wrap .useBox .content:nth-child(4) {
+  display: none;
+}
+#wrap .spnBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 2rem;
+}
+#wrap .spnBox .spn {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: #D4DEF9;
+}
+#wrap .spnBox .now {
+  width: 5rem;
+  background-color: #F7D954;
+  border-radius: 10px;
+}
+#wrap .btnBox {
+  padding-top: 6rem;
+  text-align: center;
+}
+#wrap .btnBox #btn {
+  width: 20rem;
+  height: 3.5rem;
+  background-color: #D4DEF9;
+  color: #ffffff;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+}

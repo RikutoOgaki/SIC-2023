@@ -13,7 +13,43 @@
 <!-- 自動ではなく次または前を押して移動するようにする -->
 
 <body>
+    <div id="wrap">
+        <div class="useBox">
+            <p id="befo">＜</p>
+            <div class="content">
+                <h2>仕事終わりに安心して<br />利用できる図書館</h2>
+                <figure>
+                    <img src="./img/01.png" alt="">
+                </figure>
+                <p>仕事終わりに図書館に<br />行きたくなったらサイトにログイン</p>
+            </div>
+            <div class="content">
+                <h2>QRで簡単利用</h2>
+                <figure>
+                    <img src="./img/02.png" alt="">
+                </figure>
+                <p>画面中央のQRを<br />館内カウンター横のセンサーにタッチ</p>
+            </div>
+            <div class="content">
+                <h2>仕事終わりに安心して図書館が利用できます</h2>
+                <figure>
+                    <img src="./img/03.png" alt="">
+                </figure>
+                <p>吊り下げ名札を受け取り、退館時間になるまで<br />夜間図書館をご利用ください</p>
+            </div>
+            <p id="aft">＞</p>
+        </div>
+        <div class="spnBox">
+            <span class="spn now"></span>
+            <span class="spn"></span>
+            <span class="spn"></span>
+        </div>
+        <div class="btnBox">
+            <button id="btn" disabled>利用をはじめる</button>
+        </div>
+    </div>
 
+    <script src="./js/use.js"></script>
 </body>
 
 </html>
