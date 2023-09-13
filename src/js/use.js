@@ -32,11 +32,10 @@ function After() {
     }
     else if (subnum === 2) {
         after.style.opacity = '0'
-        btn.disabled = true
+        btn.setAttribute('onclick', "location.href='./top.html'")
         btn.style.backgroundColor = '#264CB5'
     }
     else {
-        btn.disabled = false
         btn.style.backgroundColor = '#D4DEF9'
     }
 }
@@ -59,16 +58,13 @@ function Befor() {
 
     if (subnum === 1) {
         after.style.opacity = '1'
-        btn.disabled = false
         btn.style.backgroundColor = '#D4DEF9'
     }
     else if (subnum === 0) {
         befor.style.opacity = '0'
-        btn.disabled = false
         btn.style.backgroundColor = '#D4DEF9'
     }
     else {
-        btn.disabled = false
         btn.style.backgroundColor = '#D4DEF9'
     }
 }
