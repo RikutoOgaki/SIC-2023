@@ -63,7 +63,7 @@ function Befor() {
         btn.style.backgroundColor = '#D4DEF9'
     }
     else if (subnum === 0) {
-        befor.style.opacity = 'none'
+        befor.style.opacity = '0'
         btn.disabled = false
         btn.style.backgroundColor = '#D4DEF9'
     }
