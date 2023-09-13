@@ -18,12 +18,19 @@
   background-size: cover;
   margin-bottom: 7px;
 }
+#wrap .main .dateBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 0.5rem;
+  height: 5rem;
+}
 #wrap .main .dateBox .year {
   font-size: 16px;
 }
 #wrap .main .dateBox .time {
   font-size: 24px;
-  margin: 0 0 15px;
 }
 #wrap .main .qrBox {
   display: flex;

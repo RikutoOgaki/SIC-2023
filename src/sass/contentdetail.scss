@@ -45,11 +45,12 @@
         gap: 7rem;
 
         .content {
-            width: 100%;
+            width: 90%;
             display: flex;
             justify-content: center;
             align-items: center;
             flex-direction: column;
+            padding: 1rem;
 
             & h2 {
                 color: #264CB5;
@@ -58,10 +59,12 @@
 
             .bookDetailBox {
 
+                width: 100%;
+
                 & .bookDetail {
 
                     display: flex;
-                    justify-content: space-between;
+                    justify-content: center;
                     align-items: center;
                     gap: 2rem;
 
@@ -74,14 +77,12 @@
                         & img {
                             width: 100%;
                             height: 100%;
-                            background-color: tomato;
                         }
                     }
 
                     & p {
                         width: 14rem;
                         margin: 0;
-                        margin-right: 2rem;
                     }
 
                 }
