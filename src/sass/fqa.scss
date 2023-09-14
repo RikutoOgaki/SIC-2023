@@ -176,6 +176,7 @@
         border-top: 3px solid #f7d954;
         border-right: 3px solid #f7d954;
         content: "";
+        transition: .3 ease-in-out;
       }
     }
 
@@ -187,11 +188,26 @@
       margin: -5px 0 8px;
       max-width: 100%;
       padding: 0 8px 0;
-      transition: all 0.3s ease;
+      transition: 0.3s ease-in-out;
 
       p {
         margin: 0;
         padding: 0;
+        position: relative;
+        z-index: 1;
+
+        &::after {
+          content: 'A';
+          position: absolute;
+          right: 0;
+          top: 0;
+          font-size: 4rem;
+          margin: 0;
+          padding: 0;
+          color: rgba($color: #000000, $alpha: .1);
+          z-index: 0;
+          font-family: "Noto Serif", serif;
+        }
       }
 
       &.isOpen {

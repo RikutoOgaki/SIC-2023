@@ -157,6 +157,7 @@
   border-top: 3px solid #f7d954;
   border-right: 3px solid #f7d954;
   content: "";
+  transition: 0.3 ease-in-out;
 }
 .qaBlock .qaItem .qaBody {
   max-height: 0;
@@ -166,11 +167,25 @@
   margin: -5px 0 8px;
   max-width: 100%;
   padding: 0 8px 0;
-  transition: all 0.3s ease;
+  transition: 0.3s ease-in-out;
 }
 .qaBlock .qaItem .qaBody p {
   margin: 0;
   padding: 0;
+  position: relative;
+  z-index: 1;
+}
+.qaBlock .qaItem .qaBody p::after {
+  content: "A";
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 4rem;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.1);
+  z-index: 0;
+  font-family: "Noto Serif", serif;
 }
 .qaBlock .qaItem .qaBody.isOpen {
   max-height: 40vh;
