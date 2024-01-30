@@ -18,6 +18,6 @@ function setNextFocus(obj) {
 function Test() {
     console.log('発火');
     setTimeout(function () {
-        window.location.href = '/public/completion.html'
+        window.location.href = '../completion.html'
     }, 3000)
 }
